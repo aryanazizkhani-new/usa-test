@@ -14,7 +14,7 @@ jobs:
 
 
     - name: Build APK
-      uses: ArtemSBulgakov/buildozer-action@v1
+      uses: ArtemSBulgakov/buildozer-action@master
       with:
         command: buildozer android debug
 
